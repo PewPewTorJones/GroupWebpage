@@ -17,6 +17,40 @@ body {
     
 }
 
+#black-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+
+    background-color: rgba(0, 0, 0, 0.92); 
+    color: white;
+
+    border-radius: 10px; 
+
+    text-align: center;
+}
+
+#black-box ul,
+#black-box ol {
+    text-align: left;
+    margin-left: 40px;
+}
+
+#black-box ul ul {
+    margin-left: 20px;
+}
+
+#black-box a {
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#black-box a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
 
 #main-container {
     width: 90%;
